@@ -1,0 +1,28 @@
+# Ignore the requirements.txt file
+#requirements.txt
+
+# Ignore .env file (commonly used for environment variables)
+.env
+
+# Ignore package directories (e.g., for Python environments)
+venv/
+__pycache__/
+
+# Ignore any other specific package or configuration files
+*.log
+node_modules/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+
+.venv/
+venv/
+
+Chroma_db/
+.Chroma_db/
+.faiss_local/
+faiss_local/
