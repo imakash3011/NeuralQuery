@@ -10,7 +10,7 @@ load_dotenv()
 ## LangSmith Tracking 
 os.environ['LANGCHAIN_API_KEY'] = os.getenv("LANGCHAIN_API_KEY")
 os.environ['LANGCHAIN_TRACKING_V2'] = "true"
-os.environ['LANGCHAIN_PROJECT'] = "Q&A Chatbot with Ollama"
+os.environ['LANGCHAIN_PROJECT'] = "NeuralQuery"
 
 
 ## Prompt Template
